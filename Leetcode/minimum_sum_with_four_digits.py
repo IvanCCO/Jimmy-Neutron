@@ -17,5 +17,6 @@
 # So i will put all three variations on a array and iterate over it
 # to get the minimum value 
 def minimumSumBadSolution(k : int):
+    print(k)
     return k
 
