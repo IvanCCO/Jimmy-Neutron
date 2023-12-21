@@ -1,4 +1,4 @@
-# The input(k) is a integer number with four digits
+# The input(k) with lenght 4 is a integer number with four digits
 # and i have to split the number into two pieces, p1, p2
 # and return the minimum sum (p1 + p2)
 # Example:
@@ -10,6 +10,12 @@
 # So the best solution is A and the return value is 26
 # Cause is the minimum value of the sum of the two parts
 
-def minimumSum(k : int):
+
+# I though on a bad solution but i think its is a solution
+# 
+# With a 4 length int number the max number of variantion is 3
+# So i will put all three variations on a array and iterate over it
+# to get the minimum value 
+def minimumSumBadSolution(k : int):
     return k
 
