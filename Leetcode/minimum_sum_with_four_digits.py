@@ -16,7 +16,28 @@
 # With a 4 length int number the max number of variantion is 3
 # So i will put all three variations on a array and iterate over it
 # to get the minimum value 
-def minimumSumBadSolution(k : int):
-    print(k)
-    return k
+def minium_sum_bad_solution(k : str):
+    sum = 0
+    number_string = str(k)
+    for i in range(1,len(number_string)):
+        x = number_string[:i]
+        y = number_string[i:]
+        current_sum = int(x) + int(y)
+        if(i == 1):
+            sum = current_sum
+        if(current_sum < sum):
+            sum = current_sum
+        print(x)
+        print(y)
+    print(sum)
+    return sum
 
+# ==========================
+# I can switch the position of the numbers LOL
+# All though i'll not delete the lines above
+# ==========================
+
+
+
+    
+    
