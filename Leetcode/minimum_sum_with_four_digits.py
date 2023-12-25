@@ -12,25 +12,28 @@
 
 
 # I though on a bad solution but i think its is a solution
-# 
+#
 # With a 4 length int number the max number of variantion is 3
 # So i will put all three variations on a array and iterate over it
-# to get the minimum value 
-def minium_sum_bad_solution(k : str):
+# to get the minimum value
+
+
+def minium_sum_bad_solution(k: str):
     sum = 0
     number_string = str(k)
-    for i in range(1,len(number_string)):
+    for i in range(1, len(number_string)):
         x = number_string[:i]
         y = number_string[i:]
         current_sum = int(x) + int(y)
-        if(i == 1):
+        if i == 1:
             sum = current_sum
-        if(current_sum < sum):
+        if current_sum < sum:
             sum = current_sum
         print(x)
         print(y)
     print(sum)
     return sum
+
 
 # ==========================
 # I can switch the position of the numbers LOL
@@ -38,6 +41,17 @@ def minium_sum_bad_solution(k : str):
 # ==========================
 
 
+# On this solution i have convert my integer number to string_sort
+# and get the first 2 numbers, the 2 minor numbers, those numbers
+# are the ones that have to be the first number cause the decimal value
+# should be minor.
+# this is not a good solution
+def minium_sum(k: str):
+    string_sort = sorted(k)
+    x = string_sort[:2]
+    y = string_sort[2:]
 
-    
-    
+    total_x = int(f"{x[0]}{y[0]}")
+    total_y = int(f"{x[1]}{y[1]}")
+
+    return total_x + total_y
