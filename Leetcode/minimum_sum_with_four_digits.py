@@ -55,3 +55,13 @@ def minium_sum(k: str):
     total_y = int(f"{x[1]}{y[1]}")
 
     return total_x + total_y
+
+
+def minium_sum_simplified(num: int):
+    string_sort = sorted(str(num))
+    return int((string_sort[0] + string_sort[2])) + int(
+        (string_sort[1] + string_sort[3])
+    )
+
+
+print(minium_sum_simplified(int(input("Number \n"))))
