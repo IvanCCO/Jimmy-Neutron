@@ -2,9 +2,7 @@
 # Tem que contar o número de palavras levando em conta, que 
 # cada palavra é separada por " " (espaco).
 def count_words(words : list[str]):
-
   max_words = 0
-
   for word in words:
     words_count = len(word.split())
     if(words_count > max_words):
