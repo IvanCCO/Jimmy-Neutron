@@ -76,7 +76,6 @@ def minium_sum_simplified(num: int):
 # os proximos na casa decimal 2 e assim por diante
 # Unidade -> dezena -> centena -> milhar ....
 def minium_sum_best_solution(num : int):
-
     string_sort = sorted(str(num), reverse=True)
     result = 0
     decimal_position = 0 # Onde 0 é equivalente a primeira casa decimal -> unidade
@@ -92,10 +91,3 @@ def minium_sum_best_solution(num : int):
     return result
 
 print(minium_sum_best_solution(int(input("Número \n"))))
-        
-
-
-
-
-
-
