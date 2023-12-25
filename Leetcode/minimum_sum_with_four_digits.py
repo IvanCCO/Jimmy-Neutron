@@ -64,4 +64,38 @@ def minium_sum_simplified(num: int):
     )
 
 
-print(minium_sum_simplified(int(input("Number \n"))))
+# Portuguse
+# A melhor solução que encontrei foi a seguinte
+# Primeiro no fazemos um sort reverso no numero k 
+# transformando em string. 
+# A base que temos que pensar é, os maiores números 
+# tem que ficar na menor casa decimal, e os menores números
+# na maior casa décimal. 
+# Então na solução nós pegamos primeiro os maiores números e vamos somando
+# pela casa decimal, ou seja os primeiros números estando na casa decimal 1
+# os proximos na casa decimal 2 e assim por diante
+# Unidade -> dezena -> centena -> milhar ....
+def minium_sum_best_solution(num : int):
+
+    string_sort = sorted(str(num), reverse=True)
+    result = 0
+    decimal_position = 0 # Onde 0 é equivalente a primeira casa decimal -> unidade
+    is_even = False 
+
+    for i in range(len(string_sort)):
+        result += (int(string_sort[i])) * (10 ** decimal_position) # Multiplicar por 10 é a mesma coisa que mudar a casa decimal
+        if is_even:
+            decimal_position+=1
+            is_even=False
+        else:
+            is_even = True 
+    return result
+
+print(minium_sum_best_solution(int(input("Número \n"))))
+        
+
+
+
+
+
+
