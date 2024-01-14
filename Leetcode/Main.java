@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -21,11 +22,32 @@ public class Main {
 
   }
 
+
+  public static void rotate(int[] nums, int k){
+
+      for(int i = 0; i<k; i++){
+
+          // trocar ultimo com primeiro
+          int aux = nums[0];
+          nums[0] = nums[nums.length-1];
+
+          for(int j = 1; j< nums.length; j++){
+
+             int aux2 = nums[j];
+
+             nums[j] = aux;
+
+             aux = aux2;
+          }
+      }
+  }
+
   public static void main(String[] args) {
 
-    int[] num = { 2, 2, 1, 1, 1, 1, 2, 1 };
+    int[] num = { 1,2,3,4,5,6,7 };
 
-    System.out.println(majorityElement(num));
+
+    rotate(num, 3);
 
   }
 }
