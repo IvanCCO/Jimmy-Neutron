@@ -83,11 +83,12 @@ public class Main {
         }
 
         return true;
+        
     }
 
     public static void main(String[] args) {
 
-        System.out.println(wordPattern("abaa", "cat dog cat cat"));
+        System.out.println(wordPattern("abaa", "cat dog cat fish"));
 
     }
 }
