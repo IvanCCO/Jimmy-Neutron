@@ -1,5 +1,3 @@
-import java.nio.charset.CharsetEncoder;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
@@ -83,12 +81,34 @@ public class Main {
         }
 
         return true;
-        
+
+    }
+
+    // BAD SOLUTION
+    public static Integer maxProfit(int[] prices) {
+
+        int maxProfit = 0;
+
+        for (int i = 0; i < prices.length; i++) {
+            for (int j = (i + 1); j < prices.length; j++) {
+
+                int result = prices[j] - prices[i];
+
+                if (result > maxProfit) {
+                    maxProfit = result;
+                }
+
+            }
+        }
+
+        return maxProfit;
     }
 
     public static void main(String[] args) {
 
-        System.out.println(wordPattern("abaa", "cat dog cat fish"));
+        int[] prices = {7, 1, 5, 3, 6, 4};
+
+        System.out.println(maxProfit(prices));
 
     }
 }
