@@ -104,11 +104,49 @@ public class Main {
         return maxProfit;
     }
 
+    public static Integer maxProfitBestSolution(int[] prices) {
+
+        int lucroMaximo = 0;
+
+        int valorCompra = prices[0];
+
+        for (int valorVenda : prices) {
+
+            if (valorVenda > valorCompra) {
+                // lucro
+                lucroMaximo = Integer.max(lucroMaximo, (valorVenda - valorCompra));
+            } else {
+                valorCompra = valorVenda;
+            }
+        }
+        return lucroMaximo;
+    }
+
+    public static Integer maxProfitTwo(int[] prices) {
+
+        int lucroMaximo = 0;
+
+        int valorCompra = prices[0];
+
+        for (int valorVenda : prices) {
+
+            if (valorVenda > valorCompra) {
+                // lucro
+                lucroMaximo += valorVenda - valorCompra;
+                valorCompra = valorVenda;
+            } else {
+                valorCompra = valorVenda;
+            }
+        }
+        return lucroMaximo;
+    }
+
+
     public static void main(String[] args) {
 
-        int[] prices = {7, 1, 5, 3, 6, 4};
+        int[] prices = {7,6,4,3,1};
 
-        System.out.println(maxProfit(prices));
+        System.out.println(maxProfitTwo(prices));
 
     }
 }
