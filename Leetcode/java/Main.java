@@ -1,3 +1,4 @@
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
@@ -141,12 +142,46 @@ public class Main {
         return lucroMaximo;
     }
 
+    public static int romanToInteger(String s) {
+
+        Map<Character, Integer> romanMap = new HashMap<>();
+
+        romanMap.put('I', 1);
+        romanMap.put('V', 5);
+        romanMap.put('X', 10);
+        romanMap.put('L', 50);
+        romanMap.put('C', 100);
+        romanMap.put('D', 500);
+        romanMap.put('M', 1000);
+
+
+        Integer sum = 0;
+
+        char[] arr = s.toCharArray();
+
+        Integer previousValue = 0;
+
+        for (int i = arr.length - 1; i >= 0; i--) {
+
+            Integer currentValue = romanMap.get(arr[i]);
+
+            if (currentValue >= previousValue) {
+                sum += currentValue;
+            } else {
+                sum -= currentValue;
+            }
+
+            previousValue = currentValue;
+        }
+
+        return sum;
+
+    }
 
     public static void main(String[] args) {
 
-        int[] prices = {7,6,4,3,1};
-
-        System.out.println(maxProfitTwo(prices));
+//        int[] prices = {7, 6, 4, 3, 1};
+        System.out.println(romanToInteger("MCMXCIV"));
 
     }
 }
