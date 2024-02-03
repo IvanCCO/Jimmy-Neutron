@@ -178,10 +178,48 @@ public class Main {
 
     }
 
+    public static boolean isSubsequence(String s, String t) {
+
+        if ((s.length() > t.length())) {
+            return false;
+        }
+
+        if(s.isEmpty()){
+            return true;
+        }
+
+        int firstLetter = 0;
+        int lastLetter = s.length() - 1;
+
+        int totalLength = s.length();
+
+        for (int i = 0; i < t.toCharArray().length; i++) {
+
+            if (s.toCharArray()[firstLetter] == (t.toCharArray()[i])) {
+                totalLength--;
+                firstLetter++;
+            }
+
+            if (s.toCharArray()[lastLetter] == (t.toCharArray()[(t.length() - 1) - i])) {
+                totalLength--;
+                lastLetter--;
+            }
+
+            if (totalLength <= 0) {
+                return true;
+            }
+        }
+
+        return false;
+
+    }
+
     public static void main(String[] args) {
 
 //        int[] prices = {7, 6, 4, 3, 1};
-        System.out.println(romanToInteger("MCMXCIV"));
+//        System.out.println(romanToInteger("MCMXCIV"));
+
+        System.out.println(isSubsequence("axc", "ahbgdc"));
 
     }
 }
