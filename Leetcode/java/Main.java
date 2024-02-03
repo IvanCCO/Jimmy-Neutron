@@ -184,7 +184,7 @@ public class Main {
             return false;
         }
 
-        if(s.isEmpty()){
+        if (s.isEmpty()) {
             return true;
         }
 
@@ -214,12 +214,34 @@ public class Main {
 
     }
 
+    public static boolean isSubsequenceV2(String s, String t) {
+
+        if(s.isEmpty())return true;
+        int pointer = 0;
+        char[] newS = s.toCharArray();
+
+        for (char letter : t.toCharArray()) {
+
+            if (letter == newS[pointer]) {
+                pointer++;
+            }
+
+            if (pointer == s.length()) {
+                return true;
+            }
+
+        }
+
+        return false;
+
+    }
+
     public static void main(String[] args) {
 
 //        int[] prices = {7, 6, 4, 3, 1};
 //        System.out.println(romanToInteger("MCMXCIV"));
 
-        System.out.println(isSubsequence("axc", "ahbgdc"));
+        System.out.println(isSubsequenceV2("abc", "ahbgdc"));
 
     }
 }
