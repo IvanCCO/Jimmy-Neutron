@@ -268,14 +268,35 @@ public class Main {
         }
         return count;
     }
+    // Wrong solution
+    public static int strStr(String haystack, String needle) {
 
+        // Haystack is the bigger word
+        // Pointer on the needle
+        int needlePoint = 0;
+
+        for(int i = 0; i<haystack.length(); i++) {
+
+           if(haystack.charAt(i) == needle.charAt(needlePoint)){
+               needlePoint++;
+           }else{
+               needlePoint=0;
+           }
+           if(needlePoint == needle.length()){
+               return i - (needlePoint-1);
+           }
+
+        }
+        return -1;
+    }
 
     public static void main(String[] args) {
 
 //        int[] prices = {7, 6, 4, 3, 1};
 //        System.out.println(romanToInteger("MCMXCIV"));
 
-        System.out.println(isSubsequenceV2("abc", "ahbgdc"));
+//        System.out.println(isSubsequenceV2("abc", "ahbgdc"));
+        System.out.println(strStr("mississippi", "issip"));
 
     }
 }
