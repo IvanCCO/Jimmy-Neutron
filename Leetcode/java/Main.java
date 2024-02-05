@@ -216,7 +216,7 @@ public class Main {
 
     public static boolean isSubsequenceV2(String s, String t) {
 
-        if(s.isEmpty())return true;
+        if (s.isEmpty()) return true;
         int pointer = 0;
         char[] newS = s.toCharArray();
 
@@ -235,6 +235,29 @@ public class Main {
         return false;
 
     }
+
+    public static int firstUniqueCharecter(String s) {
+
+        Map<Character, Integer> map = new HashMap<>();
+
+        char[] sChar = s.toCharArray();
+
+        for (int i = 0; i < sChar.length; i++) {
+
+        }
+
+        return -1;
+
+    }
+
+    public static int lengthOfLastWord(String s) {
+
+        String[] x = s.split(" ");
+
+        return x[x.length - 1].length();
+    }
+
+
 
     public static void main(String[] args) {
 
