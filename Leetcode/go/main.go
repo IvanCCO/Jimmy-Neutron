@@ -55,7 +55,34 @@ func canConstruct(ransomNote string, magazine string) bool {
 	return false
 }
 
+// Esse solucao consiste em armazenar dentro de uma array que representa as letras do alfabeto a quantidade
+// de vezes que a letra aparece depois ir vendo se tem ainda a letra, se tiver continue se não tiver retorna false
+// Como sei que o input são letras minusculas consigo usar a tabela ascii que vai de 97 até 122
+// O Ox61 é a representação em hexadecimal do 97 que é a primeira posícão da tabela ascci das letras minuscalas
+// ou seja o "a"
+func canConstructV2(ransomNote string, magazine string) bool {
+
+	if len(ransomNote) > len(magazine) {
+		return false
+	}
+
+	alphabet := make([]int, 26)
+
+	for _, s := range magazine {
+		alphabet[s-0x61]++
+	}
+
+	for _, s := range ransomNote {
+		if alphabet[s-'a'] <= 0 {
+			return false
+		}
+		alphabet[s-0x61]--
+	}
+
+	return true
+}
+
 func main() {
 
-	fmt.Println(canConstruct("aa", "b"))
+	fmt.Println(canConstructV2("aa", "baa"))
 }
