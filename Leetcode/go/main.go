@@ -26,10 +26,36 @@ func longestCommonPrefix(strs []string) string {
 	return word
 }
 
+func canConstruct(ransomNote string, magazine string) bool {
+
+	if len(ransomNote) > len(magazine) {
+		return false
+	}
+
+	magazineBytes := []byte(magazine)
+
+	for i, s := range ransomNote {
+
+		found := false
+		for j := i; j < len(magazine); j++ {
+			if s == rune(magazineBytes[j]) {
+				magazineBytes[i], magazineBytes[j] = magazineBytes[j], magazineBytes[i]
+				found = true
+			}
+		}
+
+		if !found {
+			return false
+		} else if found && i == len(ransomNote)-1 {
+			return true
+		}
+
+	}
+
+	return false
+}
+
 func main() {
 
-	strs :=
-		[]string{"flower", "", "flight"}
-
-	fmt.Println(longestCommonPrefix(strs))
+	fmt.Println(canConstruct("aa", "b"))
 }
