@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"reflect"
 )
 
 func longestCommonPrefix(strs []string) string {
@@ -78,11 +79,27 @@ func canConstructV2(ransomNote string, magazine string) bool {
 		}
 		alphabet[s-0x61]--
 	}
-
+	fmt.Println(reflect.TypeOf(alphabet))
 	return true
+}
+
+// Does not work lol 🤣
+func isIsomorphic(s string, t string) bool {
+
+	hashS := make(map[byte]bool)
+	hashT := make(map[byte]bool)
+
+	for j, i := range s {
+		hashS[byte(i)] = true
+		hashT[byte(t[j])] = true
+	}
+
+	fmt.Println(len(hashT))
+
+	return len(hashS) == len(hashT)
 }
 
 func main() {
 
-	fmt.Println(canConstructV2("aa", "baa"))
+	fmt.Println(isIsomorphic("pop", "lil"))
 }
