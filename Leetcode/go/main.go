@@ -84,7 +84,7 @@ func canConstructV2(ransomNote string, magazine string) bool {
 }
 
 // Does not work lol 🤣
-func isIsomorphic(s string, t string) bool {
+func isIsomorphicDoesNotWork(s string, t string) bool {
 
 	hashS := make(map[byte]bool)
 	hashT := make(map[byte]bool)
@@ -101,5 +101,4 @@ func isIsomorphic(s string, t string) bool {
 
 func main() {
 
-	fmt.Println(isIsomorphic("pop", "lil"))
 }
