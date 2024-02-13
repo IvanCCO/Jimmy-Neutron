@@ -86,19 +86,59 @@ func canConstructV2(ransomNote string, magazine string) bool {
 // Does not work lol 🤣
 func isIsomorphicDoesNotWork(s string, t string) bool {
 
-	hashS := make(map[byte]bool)
-	hashT := make(map[byte]bool)
+	hash := make(map[byte]byte)
 
 	for j, i := range s {
-		hashS[byte(i)] = true
-		hashT[byte(t[j])] = true
+
+		if valor, existe := hash[byte(i)]; existe {
+
+			if valor != t[j] {
+				return false
+			}
+
+		} else {
+			hash[byte(i)] = t[j]
+		}
+
 	}
 
-	fmt.Println(len(hashT))
+	return true
+}
 
-	return len(hashS) == len(hashT)
+func isIsomorphic(s string, t string) bool {
+
+	hashS := make(map[byte]byte)
+	hashT := make(map[byte]byte)
+
+	for i := range s {
+
+		// existe o valor no array S?
+		if valor, existe := hashS[s[i]]; existe {
+			// Se existe e o valor for diferente do esperado retorna false
+			if valor != t[i] {
+				return false
+			}
+		} else {
+
+			// Existe o valor no array T?
+			if valor, existe := hashT[t[i]]; existe {
+
+				// Se existe é por que o valor está diferente do que foi mapeado antes
+				fmt.Println(valor)
+				return false
+
+			} else {
+				// Se não existe o valor ele adiciona
+				hashS[s[i]] = t[i]
+				hashT[t[i]] = s[i]
+			}
+
+		}
+	}
+
+	return true
 }
 
 func main() {
-
+	fmt.Println(isIsomorphic("paper", "title"))
 }
