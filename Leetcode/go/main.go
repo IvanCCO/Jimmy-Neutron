@@ -137,8 +137,43 @@ func isIsomorphic(s string, t string) bool {
 	}
 
 	return true
+
+}
+
+func isOpen(char byte) bool {
+	return char == '{' || char == '[' || char == '('
+}
+
+func isValid(s string) bool {
+
+	if !isOpen(s[0]) {
+		return false
+	}
+
+	hash := map[byte]byte{
+		'{': '}',
+		'[': ']',
+		'(': ')',
+	}
+
+	var stack []byte
+
+	for _, char := range s {
+		if isOpen(byte(char)) {
+			stack = append(stack, hash[byte(char)])
+		} else {
+			if len(stack) == 0 || stack[len(stack)-1] != byte(char) {
+				return false
+			}
+			stack = stack[:len(stack)-1]
+		}
+	}
+
+	return len(stack) == 0
 }
 
 func main() {
-	fmt.Println(isIsomorphic("paper", "title"))
+	fmt.Println(isValid("{[()]}"))       // true
+	fmt.Println(isValid("{[(])}"))       // false
+	fmt.Println(isValid("{{[[(())]]}}")) // true
 }
