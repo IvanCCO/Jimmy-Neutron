@@ -172,8 +172,53 @@ func isValid(s string) bool {
 	return len(stack) == 0
 }
 
+func binarySeach(nums []int, target int) bool {
+
+	metade := len(nums) / 2
+
+	if nums[metade] == target {
+		return true
+	}
+
+	if len(nums) == 1 {
+		return false
+	}
+
+	if target > nums[metade] {
+		return binarySeach(nums[metade+1:], target)
+	}
+
+	return binarySeach(nums[:metade], target)
+
+}
+
+func binarySeachForIndex(nums []int, target int) int {
+
+	l := 0
+	r := len(nums) - 1
+
+	for l <= r {
+
+		mid := (r + l) / 2
+
+		if target > nums[mid] {
+			l = mid + 1
+		} else if target < nums[mid] {
+			l = r - 1
+		} else {
+			return mid
+		}
+	}
+
+	return l
+}
+
 func main() {
-	fmt.Println(isValid("{[()]}"))       // true
-	fmt.Println(isValid("{[(])}"))       // false
-	fmt.Println(isValid("{{[[(())]]}}")) // true
+
+	nums := []int{1, 3, 5}
+	target := 6
+
+	// Teste da função binarySearch
+	encontrado := binarySeachForIndex(nums, target)
+	fmt.Println(encontrado)
 }
