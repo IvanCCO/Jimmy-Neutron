@@ -30,23 +30,39 @@ class Solution:
 
     def lengthOfLongestSubstring(self, s: str) -> int:
 
+        # Solução o(n**2)
+        # tamanhoMaiorSubstring = 0
+        #
+        # for i in range(0, len(s)):
+        #     charSet = set()
+        #     for j in range(i, len(s)):
+        #         if s[j] in charSet:
+        #             break
+        #         charSet.add(s[j])
+        #
+        #     if len(charSet) > tamanhoMaiorSubstring:
+        #         tamanhoMaiorSubstring = len(charSet)
+        #
+        #     if (len(s) - i) < tamanhoMaiorSubstring:
+        #         break
+        #
+        # return tamanhoMaiorSubstring
+        #
 
-        tamanhoMaiorSubstring = 0
+        # Solução o(n)
+        left = max_substring = 0
+        char_set = set()
 
-        for i in range(0, len(s)):
-            charSet = set()
-            for j in range(i, len(s)):
-                if s[j] in charSet:
-                    break
-                charSet.add(s[j])
-            
-            if len(charSet) > tamanhoMaiorSubstring:
-                tamanhoMaiorSubstring = len(charSet)
+        for right in range(len(s)):
 
-            if (len(s) - i) < tamanhoMaiorSubstring:
-                break
+            while s[right] in char_set:
+                char_set.remove(s[left])
+                left += 1
 
-        return tamanhoMaiorSubstring
+            char_set.add(s[right])
+            max_substring = max(max_substring, (right - left + 1) )
+
+        return max_substring
 
 s = Solution()
 print(s.lengthOfLongestSubstring(""))
