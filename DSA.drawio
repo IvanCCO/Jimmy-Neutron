@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.4">
   <diagram name="Page-1" id="uMXd9E1nDpLijzHk7OrK">
-    <mxGraphModel dx="1832" dy="547" grid="1" gridSize="22" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3605" dy="1062" grid="1" gridSize="22" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,7 +44,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="trHoCsewVYtxNoTblFJ6-27" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;QuickSelect&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Consiste em encontrar um k-th valor específico sem precisar ordernar o array, assim é possível encontrar o valor eliminando tudo que não é necessário&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
-          <mxGeometry x="-594" y="832.5" width="220" height="139" as="geometry" />
+          <mxGeometry x="-704" y="832.5" width="396" height="139" as="geometry" />
         </mxCell>
         <mxCell id="trHoCsewVYtxNoTblFJ6-29" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="50" y="1078" width="40" height="40" as="geometry" />
@@ -249,11 +249,484 @@
         <mxCell id="4iRkwBfFF-iq0vODcE54-6" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="-404" y="1005" width="40" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-22" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="4iRkwBfFF-iq0vODcE54-7" target="4iRkwBfFF-iq0vODcE54-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-344" y="1056" />
+              <mxPoint x="-618" y="1056" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="4iRkwBfFF-iq0vODcE54-7" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="-364" y="1005" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4iRkwBfFF-iq0vODcE54-8" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="-644" y="1005" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-9" value="Input" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-704" y="1010" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-10" value="Escolhe um pivot" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-704" y="1118" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-17" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-638" y="1113" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-20" value="&lt;div&gt;Pivot pode ser&lt;/div&gt;&lt;div&gt;length-1&lt;br&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-827" y="1094" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-23" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-604" y="1250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-24" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-564" y="1250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-25" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-524" y="1250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-26" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-484" y="1250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-27" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-444" y="1250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-28" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-404" y="1250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-29" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-364" y="1250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-30" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-644" y="1250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-31" value="Adiciona um ponteiro para marcar a posição que deveria estar esse pivot" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-814" y="1255" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-34" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=1;dx=14.28;notch=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rotation=90;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-649.64" y="1210" width="51.64" height="20.74" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-35" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-604" y="1390" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-36" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-564" y="1390" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-37" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-524" y="1390" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-38" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-484" y="1390" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-39" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-444" y="1390" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-40" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-404" y="1390" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-41" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-364" y="1390" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-42" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-644" y="1390" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-43" value="&lt;div&gt;Itera sobre o array e caso o elemento seja &lt;b&gt;menor ou igual&lt;/b&gt; que o pivot, anda com o ponteiro e troca de posição o elemento atual com o o da posição do pivot&lt;br&gt;&lt;/div&gt;&lt;div&gt;caso seja maior, não faz nada&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-819.64" y="1353" width="170" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-44" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=1;dx=14.28;notch=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rotation=90;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-649.64" y="1350" width="51.64" height="20.74" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-45" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-604" y="1538" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-46" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-564" y="1538" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-47" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-524" y="1538" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-48" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-484" y="1538" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-50" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-404" y="1538" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-51" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-364" y="1538" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-52" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="-644" y="1538" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-53" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=1;dx=14.28;notch=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rotation=90;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-649.64" y="1498" width="51.64" height="20.74" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-49" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-444" y="1538" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-56" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="4iRkwBfFF-iq0vODcE54-52" target="4iRkwBfFF-iq0vODcE54-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-624" y="1518" />
+              <mxPoint x="-682" y="1518" />
+              <mxPoint x="-682" y="1598" />
+              <mxPoint x="-624" y="1598" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-57" value="Como a posição atual é igual a posição do pivot ele troca com ele mesmo" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-849" y="1507" width="164" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-58" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-604" y="1668" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-59" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-564" y="1668" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-60" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-524" y="1668" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-61" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-484" y="1668" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-62" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-404" y="1668" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-63" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-364" y="1668" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-64" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-644" y="1668" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-65" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=1;dx=14.28;notch=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rotation=90;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-604" y="1631" width="40" height="20.74" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-66" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-444" y="1668" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-68" value="É maior do que o pivot então não faz nada" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-855" y="1668" width="170" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-69" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-604" y="1788" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-80" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="4iRkwBfFF-iq0vODcE54-70" target="4iRkwBfFF-iq0vODcE54-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-70" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-564" y="1788" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-71" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-524" y="1788" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-72" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-484" y="1788" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-73" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-404" y="1788" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-74" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-364" y="1788" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-75" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-644" y="1788" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-76" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=1;dx=14.28;notch=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rotation=90;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-604" y="1751" width="40" height="20.74" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-77" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-444" y="1788" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-78" value="É igual do que o pivot então troca de posição com o do pivot e move a posição do pivot" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-855" y="1779" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-81" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-604" y="1907" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-82" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-564" y="1907" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-84" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-484" y="1907" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-85" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-404" y="1907" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-86" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-364" y="1907" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-87" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-644" y="1907" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-88" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=1;dx=14.28;notch=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rotation=90;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-564" y="1870" width="40" height="20.74" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-89" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-444" y="1907" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-103" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="4iRkwBfFF-iq0vODcE54-83" target="4iRkwBfFF-iq0vODcE54-82">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-504" y="1958" />
+              <mxPoint x="-544" y="1958" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-83" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-524" y="1907" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-90" value="É menor do que o pivot então troca de posição com o do pivot e move a posição do pivot" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-849" y="1897" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-91" value="K - menor: 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-692" y="968" width="88" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-93" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-604" y="2017" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-94" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-564" y="2017" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-95" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-484" y="2017" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-96" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-404" y="2017" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-97" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-364" y="2017" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-98" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-644" y="2017" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-99" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=1;dx=14.28;notch=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rotation=90;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-524" y="1980" width="40" height="20.74" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-100" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-444" y="2017" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-101" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-524" y="2017" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-104" value="É maior do que o pivot então não faz nada" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-849" y="2017" width="170" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-105" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-604" y="2127" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-106" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-564" y="2127" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-107" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-484" y="2127" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-108" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-404" y="2127" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-109" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-364" y="2127" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-110" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-644" y="2127" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-111" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=1;dx=14.28;notch=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rotation=90;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-524" y="2090" width="40" height="20.74" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-112" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-444" y="2127" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-113" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-524" y="2127" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-114" value="É maior do que o pivot então não faz nada" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-849" y="2127" width="170" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-115" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-604" y="2237" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-116" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-564" y="2237" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-117" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-484" y="2237" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-118" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-404" y="2237" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-119" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-364" y="2237" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-120" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-644" y="2237" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-121" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=1;dx=14.28;notch=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rotation=90;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-524" y="2200" width="40" height="20.74" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-122" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-444" y="2237" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-123" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-524" y="2237" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-124" value="É maior do que o pivot então não faz nada" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-852" y="2237" width="170" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-125" value="FIM DO LOOP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-574" y="2310" width="170" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-126" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-604" y="2413" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-127" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-564" y="2413" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-128" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-484" y="2413" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-129" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-404" y="2413" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-136" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="4iRkwBfFF-iq0vODcE54-130" target="4iRkwBfFF-iq0vODcE54-134">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-344" y="2473" />
+              <mxPoint x="-504" y="2473" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-130" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-364" y="2413" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-131" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-644" y="2413" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-132" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=1;dx=14.28;notch=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rotation=90;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-524" y="2376" width="40" height="20.74" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-133" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-444" y="2413" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-134" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-524" y="2413" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-135" value="Após o loop nós colocamos o pivot na posição do pivot" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-855" y="2413" width="170" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-137" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-601" y="2545" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-138" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-561" y="2545" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-139" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-481" y="2545" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-140" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-401" y="2545" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-142" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-361" y="2545" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-143" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-641" y="2545" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-144" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=1;dx=14.28;notch=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rotation=90;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-521" y="2508" width="40" height="20.74" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-145" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-441" y="2545" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-146" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-521" y="2545" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-147" value="Após o loop nós colocamos o pivot na posição do pivot" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-852" y="2545" width="170" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-148" value="Agora a gente sabe que o 2 (pivot) é o quarto k-th menor elemento do meu array por que&amp;nbsp; a posição do pivot é 3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-586" y="2596" width="170" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-150" value="Então agora fazemos recursivo para pegar o segundo menor elemento que é o desejavel" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-583" y="2684" width="170" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-151" value="Eliminamos a parte da direita, por que não nos interessa, e trabalhamos apenas com a parte da esquerda" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-583" y="2772" width="170" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-161" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-598" y="2860" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-162" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-558" y="2860" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-163" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-478" y="2860" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-164" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-398" y="2860" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-165" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-358" y="2860" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-166" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-638" y="2860" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-167" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-438" y="2860" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-168" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-518" y="2860" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-169" value="Removemos a parte que não interessa para iterar apenas com a parte menor" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-849" y="2860" width="170" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-170" value="" style="shape=mxgraph.mockup.markup.redX;fillColor=#ff0000;html=1;shadow=0;whiteSpace=wrap;strokeColor=none;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-518" y="2855.75" width="200" height="48.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-172" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-598" y="2970" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-173" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-558" y="2970" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-174" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-638" y="2970" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-176" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=1;dx=14.28;notch=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rotation=90;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-638" y="2926" width="40" height="20.74" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-177" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1" source="4iRkwBfFF-iq0vODcE54-174" target="4iRkwBfFF-iq0vODcE54-174">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-618" y="2950" />
+              <mxPoint x="-660" y="2950" />
+              <mxPoint x="-660" y="3030" />
+              <mxPoint x="-618" y="3030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-178" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-598" y="3102" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-179" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-558" y="3102" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-180" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-638" y="3102" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-181" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=1;dx=14.28;notch=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rotation=90;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-598" y="3058" width="40" height="20.74" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-182" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-558" y="3234" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-183" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-598" y="3234" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-184" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-638" y="3234" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-185" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=1;dx=14.28;notch=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rotation=90;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-598" y="3190" width="40" height="20.74" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-186" value="Agora a gente sabe que o 1 (pivot) é o segundo k-th menor elemento do meu array por que&amp;nbsp; a posição do pivot é 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-663" y="3300" width="170" height="66" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
