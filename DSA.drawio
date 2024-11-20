@@ -1,127 +1,127 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.4">
   <diagram name="Page-1" id="uMXd9E1nDpLijzHk7OrK">
-    <mxGraphModel dx="1677" dy="463" grid="1" gridSize="22" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1832" dy="547" grid="1" gridSize="22" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="trHoCsewVYtxNoTblFJ6-8" value="&lt;p&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot;&gt;&lt;strong class=&quot;example&quot;&gt;Example 1:&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;&lt;pre&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot;&gt;&lt;strong&gt;Input:&lt;/strong&gt; nums = [3,2,1,5,6,4], k = 2&lt;/font&gt;&lt;font face=&quot;b39UOJuHVI4HvWrOIDpN&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot;&gt;&lt;strong&gt;Output:&lt;/strong&gt; 5&lt;br&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-8" value="&lt;p&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot;&gt;&lt;strong class=&quot;example&quot;&gt;Example 1:&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;&lt;pre&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot;&gt;&lt;strong&gt;Input:&lt;/strong&gt; nums = [3,2,1,5,6,4], k = 2&lt;/font&gt;&lt;font face=&quot;b39UOJuHVI4HvWrOIDpN&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot;&gt;&lt;strong&gt;Output:&lt;/strong&gt; 5&lt;br&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="170" y="836" width="164" height="88" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-14" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-14" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="50" y="970" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-15" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-15" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="90" y="970" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-16" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-16" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="130" y="970" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-17" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-17" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="170" y="970" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-18" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-18" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="210" y="970" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-19" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-19" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="250" y="970" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-21" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot; style=&quot;font-size: 24px;&quot;&gt;Nums:&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-21" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot; style=&quot;font-size: 24px;&quot;&gt;Nums:&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="-20" y="975" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-22" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot; style=&quot;font-size: 24px;&quot;&gt;K:&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-22" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot; style=&quot;font-size: 24px;&quot;&gt;K:&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="308" y="975" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-23" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot; style=&quot;font-size: 24px;&quot;&gt;2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-23" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot; style=&quot;font-size: 24px;&quot;&gt;2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="354" y="975" width="24" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-24" value="&lt;p&gt;&lt;font face=&quot;Caveat&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot;&gt;Given an integer array &lt;code&gt;nums&lt;/code&gt; and an integer &lt;code&gt;k&lt;/code&gt;, return &lt;em&gt;the&lt;/em&gt; &lt;code&gt;k&lt;sup&gt;th&lt;/sup&gt;&lt;/code&gt; &lt;em&gt;largest element in the array&lt;/em&gt;.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot;&gt;Note that it is the &lt;code&gt;k&lt;sup&gt;th&lt;/sup&gt;&lt;/code&gt; largest element in the sorted order, not the &lt;code&gt;k&lt;sup&gt;th&lt;/sup&gt;&lt;/code&gt; distinct element.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot;&gt;Can you solve it without sorting?&lt;/font&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-24" value="&lt;p&gt;&lt;font face=&quot;Caveat&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot;&gt;Given an integer array &lt;code&gt;nums&lt;/code&gt; and an integer &lt;code&gt;k&lt;/code&gt;, return &lt;em&gt;the&lt;/em&gt; &lt;code&gt;k&lt;sup&gt;th&lt;/sup&gt;&lt;/code&gt; &lt;em&gt;largest element in the array&lt;/em&gt;.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot;&gt;Note that it is the &lt;code&gt;k&lt;sup&gt;th&lt;/sup&gt;&lt;/code&gt; largest element in the sorted order, not the &lt;code&gt;k&lt;sup&gt;th&lt;/sup&gt;&lt;/code&gt; distinct element.&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot;&gt;Can you solve it without sorting?&lt;/font&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="-138" y="836" width="308" height="132" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-25" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot; style=&quot;font-size: 24px;&quot;&gt;O: 5&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-25" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot; style=&quot;font-size: 24px;&quot;&gt;O: 5&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="414" y="975" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="trHoCsewVYtxNoTblFJ6-27" target="trHoCsewVYtxNoTblFJ6-21">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="trHoCsewVYtxNoTblFJ6-27" target="trHoCsewVYtxNoTblFJ6-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-27" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;QuickSelect&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Consiste em encontrar um k-th valor específico sem precisar ordernar o array, assim é possível encontrar o valor eliminando tudo que não é necessário&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-27" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;QuickSelect&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Consiste em encontrar um k-th valor específico sem precisar ordernar o array, assim é possível encontrar o valor eliminando tudo que não é necessário&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="-594" y="832.5" width="220" height="139" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-29" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-29" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="50" y="1078" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-30" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-30" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="90" y="1078" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-31" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-31" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="130" y="1078" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-32" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-32" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="170" y="1078" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-33" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-33" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="210" y="1078" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-34" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-34" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="250" y="1078" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-38" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot;&gt;Separa para esquerda o que é menor que o PIVOT e para direita o que é maior&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-38" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot;&gt;Separa para esquerda o que é menor que o PIVOT e para direita o que é maior&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="110" y="1144" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-40" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-40" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="55" y="1210" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-41" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-41" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="95" y="1210" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-42" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-42" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="135" y="1210" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-43" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-43" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="175" y="1210" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-44" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-44" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="215" y="1210" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-45" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-45" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="255" y="1210" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-46" value="&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot;&gt;Escolher um pivot&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot;&gt;Arr[length-1]&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-46" value="&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot;&gt;Escolher um pivot&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot;&gt;Arr[length-1]&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="110" y="1034" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-47" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-47" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="55" y="1276" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-48" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-48" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="95" y="1276" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-49" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-49" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="135" y="1276" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-50" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-50" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="255" y="1276" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-51" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-51" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="215" y="1276" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-52" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-52" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="175" y="1276" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-60" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-60" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="55" y="1342" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-61" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-61" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="95" y="1342" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-62" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-62" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="135" y="1342" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-63" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-63" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="255" y="1342" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-64" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-64" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="215" y="1342" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-68" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="trHoCsewVYtxNoTblFJ6-65" target="trHoCsewVYtxNoTblFJ6-67">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-68" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="trHoCsewVYtxNoTblFJ6-65" target="trHoCsewVYtxNoTblFJ6-67" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="195" y="1408" />
@@ -129,85 +129,85 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-65" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-65" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="175" y="1342" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-67" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot;&gt;Sabemos que esse cara é o terceiro maior elemento do array, porque - direita.length + 1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-67" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot;&gt;Sabemos que esse cara é o terceiro maior elemento do array, porque - direita.length + 1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="334" y="1474" width="121" height="88" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-69" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-69" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="55" y="1430" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-70" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-70" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="95" y="1430" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-71" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-71" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="135" y="1430" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-72" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-72" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="255" y="1430" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-73" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-73" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="215" y="1430" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-74" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-74" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="175" y="1430" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-75" value="" style="shape=mxgraph.mockup.markup.redX;fillColor=#ff0000;html=1;shadow=0;whiteSpace=wrap;strokeColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-75" value="" style="shape=mxgraph.mockup.markup.redX;fillColor=#ff0000;html=1;shadow=0;whiteSpace=wrap;strokeColor=none;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="61" y="1433" width="154" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-76" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-76" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="55" y="1498" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-77" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-77" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="95" y="1498" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-78" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-78" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="135" y="1498" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-79" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-79" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="255" y="1498" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-80" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-80" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="215" y="1498" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-81" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-81" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="175" y="1498" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-82" value="" style="shape=mxgraph.mockup.markup.redX;fillColor=#ff0000;html=1;shadow=0;whiteSpace=wrap;strokeColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-82" value="" style="shape=mxgraph.mockup.markup.redX;fillColor=#ff0000;html=1;shadow=0;whiteSpace=wrap;strokeColor=none;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="61" y="1501" width="154" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-83" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-83" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="55" y="1562" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-84" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-84" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="95" y="1562" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-85" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-85" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="135" y="1562" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-86" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-86" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="255" y="1562" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-87" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-87" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="215" y="1562" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-88" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-88" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="175" y="1562" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-89" value="" style="shape=mxgraph.mockup.markup.redX;fillColor=#ff0000;html=1;shadow=0;whiteSpace=wrap;strokeColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-89" value="" style="shape=mxgraph.mockup.markup.redX;fillColor=#ff0000;html=1;shadow=0;whiteSpace=wrap;strokeColor=none;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="61" y="1565" width="154" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-90" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-90" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="55" y="1628" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-91" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-91" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="95" y="1628" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-92" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-92" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="135" y="1628" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-98" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" target="trHoCsewVYtxNoTblFJ6-97">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-98" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" target="trHoCsewVYtxNoTblFJ6-97" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="235" y="1664.9999999999998" as="sourcePoint" />
             <Array as="points">
@@ -216,20 +216,44 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-93" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-93" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="215" y="1628" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-94" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-94" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="255" y="1628" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-95" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-95" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="175" y="1628" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-96" value="" style="shape=mxgraph.mockup.markup.redX;fillColor=#ff0000;html=1;shadow=0;whiteSpace=wrap;strokeColor=none;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-96" value="" style="shape=mxgraph.mockup.markup.redX;fillColor=#ff0000;html=1;shadow=0;whiteSpace=wrap;strokeColor=none;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="61" y="1631" width="154" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="trHoCsewVYtxNoTblFJ6-97" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot;&gt;Sabemos que esse cara é o segundo maior elemento do array, porque - direita.length + 1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="trHoCsewVYtxNoTblFJ6-97" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Caveat&quot; face=&quot;Caveat&quot;&gt;Sabemos que esse cara é o segundo maior elemento do array, porque - direita.length + 1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="334" y="1751" width="121" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-1" value="3" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-604" y="1005" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-2" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-564" y="1005" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-3" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-524" y="1005" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-4" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-484" y="1005" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-5" value="6" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-444" y="1005" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-6" value="4" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-404" y="1005" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-7" value="2" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-364" y="1005" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-8" value="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Caveat;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DCaveat;fontSize=25;align=center;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="-644" y="1005" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
