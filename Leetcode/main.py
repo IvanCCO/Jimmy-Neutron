@@ -64,9 +64,37 @@ class Solution:
 
         return max_substring
 
+    def maximumUniqueSubarray(self, nums: List[int]) -> int:
+
+        left = max_subarray_sum = 0
+        char_set = set()
+
+        temp_max = 0
+        for right in range(len(nums)):
+
+            while nums[right] in char_set:
+                char_set.remove(nums[left])
+                temp_max -= nums[left]
+                left += 1
+
+            char_set.add(nums[right])
+            temp_max += nums[right]
+
+            max_subarray_sum = max(max_subarray_sum, temp_max)
+
+        return max_subarray_sum
+
+    # O(n log n)
+    def quickSort(self, nums: List[int]) -> List[int]:
+
+        if len(nums) <= 1:
+            return nums
+
+        pivot = nums[0]
+        less = [i for i in nums[1:] if i <= pivot]
+        greater = [i for i in nums[1:] if i > pivot]
+
+        return self.quickSort(less) + [pivot] + self.quickSort(greater)
+
 s = Solution()
-print(s.lengthOfLongestSubstring(""))
-print(s.lengthOfLongestSubstring("ckilbkd"))
-print(s.lengthOfLongestSubstring("tmmzuxt"))
-print(s.lengthOfLongestSubstring("dvdf"))
 
