@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.4">
   <diagram name="Page-1" id="uMXd9E1nDpLijzHk7OrK">
-    <mxGraphModel dx="4970" dy="1806" grid="1" gridSize="22" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2797" dy="623" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -913,6 +913,63 @@
         </mxCell>
         <mxCell id="4iRkwBfFF-iq0vODcE54-340" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;MaxSubstring = right - left + 1&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
           <mxGeometry x="1716" y="1716" width="330" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-517" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="2744" y="1629" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-518" value="&lt;p&gt;You are given an array &lt;code&gt;nums&lt;/code&gt; consisting of &lt;strong&gt;positive&lt;/strong&gt; integers.&lt;/p&gt;&lt;p&gt;We call a subarray of an array &lt;strong&gt;complete&lt;/strong&gt; if the following condition is satisfied:&lt;/p&gt;&lt;ul&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;li&gt;The number of &lt;strong&gt;distinct&lt;/strong&gt; elements in the subarray is equal to the number of distinct elements in the whole array.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Return &lt;em&gt;the number of &lt;strong&gt;complete&lt;/strong&gt; subarrays&lt;/em&gt;.&lt;/p&gt;&lt;p&gt;A &lt;strong&gt;subarray&lt;/strong&gt; is a contiguous non-empty part of an array.&lt;/p&gt;&lt;p&gt;&lt;strong class=&quot;example&quot;&gt;Example 1:&lt;/strong&gt;&lt;/p&gt;&lt;pre&gt;&lt;strong&gt;Input:&lt;/strong&gt; nums = [1,3,1,2,2]&lt;br&gt;&lt;strong&gt;Output:&lt;/strong&gt; 4&lt;br&gt;&lt;strong&gt;Explanation:&lt;/strong&gt; &lt;br&gt;The complete subarrays are the following: [1,3,1,2], [1,3,1,2,2], [3,1,2] and [3,1,2,2].&lt;br&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong class=&quot;example&quot;&gt;Example 2:&lt;/strong&gt;&lt;/p&gt;&lt;pre&gt;&lt;strong&gt;Input:&lt;/strong&gt; nums = [5,5,5,5]&lt;br&gt;&lt;strong&gt;Output:&lt;/strong&gt; 10&lt;br&gt;&lt;strong&gt;Explanation:&lt;/strong&gt; &lt;br&gt;The array consists only of the integer 5,&lt;br&gt;so any subarray is complete. The number of subarrays that we can choose is 10.&lt;br&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=13;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2646" y="1130.37" width="686" height="437.63" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-520" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="2786" y="1629" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-521" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="2828" y="1629" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-522" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="2870" y="1629" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-523" value="Len(Set(num))" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=25;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2758" y="1702.5" width="168" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-524" value="nums:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=25;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2646" y="1638" width="84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-525" value="Distinct:" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=25;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2660" y="1702.5" width="84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-526" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="2926" y="1856.63" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-527" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="2968" y="1856.63" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-528" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="3010" y="1856.63" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-529" value="5" style="whiteSpace=wrap;html=1;aspect=fixed;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="3052" y="1856.63" width="42" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-530" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.76;dx=29.66;direction=north;notch=0;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="2744" y="1766.5" width="42" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-531" value="Left" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=25;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2660" y="1780" width="84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-532" value="Right" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=25;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="2660" y="1870" width="84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-535" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.76;dx=29.66;direction=north;notch=0;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="2744" y="1870.5" width="42" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-539" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.76;dx=29.66;direction=north;notch=0;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=13;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;rotation=-180;" vertex="1" parent="1">
+          <mxGeometry x="2926" y="1788" width="42" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-540" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.76;dx=29.66;direction=north;notch=0;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=13;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="2926" y="1913.3700000000001" width="42" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="4iRkwBfFF-iq0vODcE54-541" value="Counter = { 5: 4 }" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=25;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="3150" y="1761.63" width="224" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
