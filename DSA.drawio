@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.8">
   <diagram name="Page-1" id="uMXd9E1nDpLijzHk7OrK">
-    <mxGraphModel dx="2860" dy="595" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2635" dy="485" grid="1" gridSize="13" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -976,6 +976,9 @@
         </mxCell>
         <mxCell id="yiVySwNL8QC92noTGAiO-2" value="&lt;p&gt;Determine if a&amp;nbsp;&lt;code&gt;9 x 9&lt;/code&gt; Sudoku board&amp;nbsp;is valid.&amp;nbsp;Only the filled cells need to be validated&amp;nbsp;&lt;strong&gt;according to the following rules&lt;/strong&gt;:&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;Each row&amp;nbsp;must contain the&amp;nbsp;digits&amp;nbsp;&lt;code&gt;1-9&lt;/code&gt; without repetition.&lt;/li&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;li&gt;Each column must contain the digits&amp;nbsp;&lt;code&gt;1-9&lt;/code&gt;&amp;nbsp;without repetition.&lt;/li&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;li&gt;Each of the nine&amp;nbsp;&lt;code&gt;3 x 3&lt;/code&gt; sub-boxes of the grid must contain the digits&amp;nbsp;&lt;code&gt;1-9&lt;/code&gt;&amp;nbsp;without repetition.&lt;/li&gt;&lt;br&gt;&lt;/ol&gt;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;li&gt;A Sudoku board (partially filled) could be valid but is not necessarily solvable.&lt;/li&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;li&gt;Only the filled cells need to be validated according to the mentioned&amp;nbsp;rules.&lt;/li&gt;&lt;br&gt;&lt;/ul&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
           <mxGeometry x="4135" y="586" width="560" height="352" as="geometry" />
+        </mxCell>
+        <mxCell id="yiVySwNL8QC92noTGAiO-11" value="Quick Sort" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="1920.5" y="308" width="137.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
