@@ -1,11 +1,34 @@
 from typing import List
 import random
 
+class MinStack:
+
+    def __init__(self):
+        self.stack = [] # o(1)
+
+    def push(self, val: int) -> None:
+
+        actual_min = val if not self.stack else min(val, self.getMin()) # o(1)
+        self.stack.append({'value': val, 'min_value': actual_min}) # o(1)
+        
+
+    def pop(self) -> None:
+        self.stack.pop() # o(1)
+        
+
+    def top(self) -> int:
+        return self.stack[-1]["value"] # o(1)
+        
+
+    def getMin(self) -> int:
+        return self.stack[-1]["min_value"] # 0(1)
+        
+
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
 
-        k = len(nums) - k
 
+        k = len(nums) - k
         def quickSelect(l, r):
             rand = random.randint(l, r)
             nums[rand], nums[r] = nums[r], nums[rand]
@@ -214,8 +237,5 @@ class Solution:
 
 
 
-
-
 s = Solution()
-
-print(s.isValid("()"))
+minStack = MinStack() # 0(1)
