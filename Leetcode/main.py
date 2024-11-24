@@ -47,8 +47,6 @@ class MinStack:
 
 class Solution:
 	def findKthLargest(self, nums: List[int], k: int) -> int:
-
-
 		k = len(nums) - k
 		def quickSelect(l, r):
 			rand = random.randint(l, r)
@@ -288,19 +286,20 @@ class Solution:
 				stack.append(int(op))
 
 		return stack.pop()
-		
-
-
-
+	
+	def nextGreaterElement(self, arr : List[int]) -> List[int]:
+		stack = []
+		for i in range(len(arr) - 1, -1, -1):
+			maxGreater = -1
+			while len(stack) > 0:
+				if arr[i] >= stack[-1]:
+					stack.pop()
+				else:
+					maxGreater = stack[-1]
+					break
+			stack.append(arr[i])
+			arr[i] = maxGreater
+		return arr
+				
 s = Solution()
-minStack = MinStack() # 0(1)
-monotonic_stack = MonotonicStack()
-
-monotonic_stack.push(1)
-monotonic_stack.push(4)
-monotonic_stack.push(3)
-monotonic_stack.push(2)
-monotonic_stack.push(0)
-print(monotonic_stack.stack)
-print(monotonic_stack.top())
-print(monotonic_stack.stack)
+print(s.nextGreaterElement([10, 2, 4, 1, 5, 7,3,4,4,4,3,4,7,6,5])) # [-1, 4, 5, 5, 7, -1, 4, 7, 7, 7, 4, 7, -1, -1 , -1]
