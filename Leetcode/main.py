@@ -235,6 +235,40 @@ class Solution:
 
         return len(expected_close) == 0
 
+    def evalRPN(self, tokens: List[str]) -> int:
+
+        stack = []
+
+        def isOperador(character:str) -> bool:
+            return character in ["+", "-", "*", "/"] # O(1)
+
+        def makeOperation(operador: str):
+            if operador == "+":
+                right = stack.pop()
+                left = stack.pop()
+                stack.append(left + right)
+            elif operador == "-":
+                right = stack.pop()
+                left = stack.pop()
+                stack.append(left - right)
+            elif operador == "*":
+                right = stack.pop()
+                left = stack.pop()
+                stack.append(left * right)
+            elif operador == "/":
+                right = stack.pop()
+                left = stack.pop()
+                stack.append(int(left / right))
+
+        for op in tokens:
+            if isOperador(op):
+                makeOperation(op)
+            else:
+                stack.append(int(op))
+
+        return stack.pop()
+        
+
 
 
 s = Solution()
