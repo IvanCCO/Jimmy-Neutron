@@ -8,7 +8,7 @@ class MonotonicStack:
 
 	def top(self) -> int:
 		return self.stack[-1]
-	
+
 	def pop(self) -> int:
 		value = self.stack[-1]
 		return value
@@ -31,19 +31,19 @@ class MinStack:
 
 		actual_min = val if not self.stack else min(val, self.getMin()) # o(1)
 		self.stack.append({'value': val, 'min_value': actual_min}) # o(1)
-		
+
 
 	def pop(self) -> None:
 		self.stack.pop() # o(1)
-		
+
 
 	def top(self) -> int:
 		return self.stack[-1]["value"] # o(1)
-		
+
 
 	def getMin(self) -> int:
 		return self.stack[-1]["min_value"] # 0(1)
-		
+
 
 class Solution:
 	def findKthLargest(self, nums: List[int], k: int) -> int:
@@ -60,7 +60,7 @@ class Solution:
 
 			nums[pivotPos], nums[r] =  nums[r], nums[pivotPos]
 
-			if pivotPos > k: 
+			if pivotPos > k:
 				return quickSelect(l, pivotPos - 1)
 			elif pivotPos < k:
 				return quickSelect(pivotPos + 1, r)
@@ -162,7 +162,7 @@ class Solution:
 
 		# o(n) * o(n) = o(n**2)
 		for num in nums:
-			
+
 			search_number = num
 			consectiveCounter = 0
 
@@ -232,7 +232,7 @@ class Solution:
 		return max_area
 
 	def isValid(self, s: str) -> bool:
-		
+
 		close_carecters = [")", "]", "}"]
 		expected_close = []
 
@@ -241,10 +241,10 @@ class Solution:
 			if char in close_carecters:
 				if len(expected_close) == 0:
 					return False
-				
+
 				if not expected_close.pop() == char:
 					return False
-			
+
 			if char == '(':
 				expected_close.append(')')
 			elif char == '[':
@@ -286,8 +286,8 @@ class Solution:
 				stack.append(int(op))
 
 		return stack.pop()
-	
-	def nextGreaterElement(self, arr : List[int]) -> List[int]:
+
+	def nextGreaterElement2(self, arr : List[int]) -> List[int]:
 		stack = []
 		for i in range(len(arr) - 1, -1, -1):
 			maxGreater = -1
@@ -300,6 +300,30 @@ class Solution:
 			stack.append(arr[i])
 			arr[i] = maxGreater
 		return arr
-				
+
+	def nextGreaterElement(self, nums1 : List[int], nums2: List[int]) -> List[int]:
+		stack = [] # O(n2)
+		aux = {} # O(n2)
+
+		# O(n2 + n2)
+		# O(n2) memória
+		# O(n1 + n2) tempo
+
+		for i in range(len(nums2) - 1, -1, -1):
+			maxGreater = -1
+			while len(stack) > 0:
+				if nums2[i] >= stack[-1]:
+					stack.pop()
+				else:
+					maxGreater = stack[-1]
+					break
+			stack.append(nums2[i])
+			aux[nums2[i]] = maxGreater
+
+		for i in range(len(nums1)):
+			nums1[i] = aux[nums1[i]]
+
+		return nums1
+
 s = Solution()
-print(s.nextGreaterElement([10, 2, 4, 1, 5, 7,3,4,4,4,3,4,7,6,5])) # [-1, 4, 5, 5, 7, -1, 4, 7, 7, 7, 4, 7, -1, -1 , -1]
+print(s.nextGreaterElement([4,1,2], [1, 3, 4, 2])) # [-1, 4, 5, 5, 7, -1, 4, 7, 7, 7, 4, 7, -1, -1 , -1]
