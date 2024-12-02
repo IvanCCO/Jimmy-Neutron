@@ -343,6 +343,25 @@ class Solution:
 
         return -1
 
+    def mergeAlternately(self, word1: str, word2: str) -> str:
+        res = []
+
+        min_length = min(len(word1), len(word2))
+
+        for i in range(0, min_length):
+            res.append(word1[i])
+            res.append(word2[i])
+
+        carry = word2 if min_length == len(word1) else word1
+
+
+        res.append(carry[min_length:])
+
+        res_str = (''.join(res))
+
+        return res_str
+
+
 
 s = Solution()
-print(s.search([1,2,3], 3))
+print(s.mergeAlternately("abcd", "pq"))
