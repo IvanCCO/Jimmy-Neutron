@@ -361,7 +361,26 @@ class Solution:
 
         return res_str
 
+    def fiboth(self, n: int) -> int:
+
+        
+        fibo_arr = [0, 1]
+        
+        for i in range(2, n+1):
+            fibo_arr.append(fibo_arr[i - 2] + fibo_arr[i - 1])
+
+        print(fibo_arr)
+        return fibo_arr[n]
+
+    def tribonacci(self, n: int) -> int:
+        
+        fibo_arr = [0, 1, 1]
+        
+        for i in range(3, n+1):
+            fibo_arr.append(fibo_arr[i - 3] + fibo_arr[i - 2] + fibo_arr[i - 1])
+
+        return fibo_arr[n]
 
 
 s = Solution()
-print(s.mergeAlternately("abcd", "pq"))
+print(s.tribonacci(25))
